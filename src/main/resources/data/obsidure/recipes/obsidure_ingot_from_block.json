@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "obsidure:obsidure_block"
+    }
+  ],
+  "result": {
+    "item": "obsidure:obsidure_ingot",
+    "count": 9
+  }
+}

@@ -1,5 +1,6 @@
 package com.tomod.obsidure;
 
+import com.tomod.obsidure.block.ObsidureBlock;
 import com.tomod.obsidure.block.ObsidureOre;
 import com.tomod.obsidure.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
@@ -25,6 +26,7 @@ public class Obsidure
         ModItems.register(eventBus);
 
         ObsidureOre.register(eventBus);
+        ObsidureBlock.register(eventBus);
 
         eventBus.addListener(this::setup);
 
