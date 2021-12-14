@@ -1,4 +1,6 @@
 {
   "item.obsidure.obsidure_ingot": "Obsidure Ingot",
-  "item.obsidure.obsidure_fragment": "Obsidure Fragment"
+  "item.obsidure.obsidure_fragment": "Obsidure Fragment",
+  "block.obsidure.obsidure_ore": "Obsidure Ore",
+  "itemGroup.obsidureTab": "Obsidure"
 }

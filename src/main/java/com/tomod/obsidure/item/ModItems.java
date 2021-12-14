@@ -12,9 +12,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Obsidure.MOD_ID);
 
     public static final RegistryObject<Item> OBSIDURE_INGOT = ITEMS.register("obsidure_ingot",()
-    -> new Item (new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    -> new Item (new Item.Properties().tab(OCreativeModeTab.OBSIDURE_TAB)));
     public static final RegistryObject<Item> OBSIDURE_FRAGMENT = ITEMS.register("obsidure_fragment",()
-            -> new Item (new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            -> new Item (new Item.Properties().tab(OCreativeModeTab.OBSIDURE_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
